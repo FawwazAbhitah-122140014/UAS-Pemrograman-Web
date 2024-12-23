@@ -50,10 +50,12 @@
 ### 3.2 Konfigurasi Koneksi Database
 - melakukan konfigurasi koneksi database pada `db.phg` dengan menggunakan host, user, password, dbname.
 
-  <img src="readme_pict/koneksi.png" width="auto" height="350" />
+  <img src="readme_pict/koneksi.png" width="auto" height="300" />
 
 ### 3.3 Manipulasi Data pada Database
 - melakukan CRUD yaitu menambahkan data, update data, serta menghapus data.
+
+  <img src="readme_pict/Crud.gif" width="auto" height="350" />
 
 ## Bagian 4: State Management
 ### 4.1 State Management dengan Session
