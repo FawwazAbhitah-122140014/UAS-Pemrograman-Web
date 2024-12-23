@@ -1,5 +1,7 @@
 # UAS-Pemrograman-Web
-
+Akun Admin 
+Email : admin@gmail.com
+Password :123456
 ## Bagian 1: Client-side Programming
 ### 1.1 Manipulasi DOM dengan JavaScript
 - Buat form input dengan minimal 4 elemen input
