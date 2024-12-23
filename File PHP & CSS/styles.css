@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Navigation Button Styling */
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styling */
+table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.data-table th, table.data-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table.data-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.data-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Button Styling inside Table */
+.update-btn, .delete-btn {
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn {
+  background-color: #4CAF50;
+}
+
+.update-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #36d4f4;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}

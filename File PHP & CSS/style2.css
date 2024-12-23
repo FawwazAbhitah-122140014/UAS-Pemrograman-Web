@@ -1,0 +1,106 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #009579;
+  margin: 40px;
+}
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.container label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.container input[type="text"],
+.container input[type="number"],
+.container select {
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.container input[type="text"]:focus,
+.container input[type="number"]:focus,
+.container select:focus {
+  border-color: #009579;
+  box-shadow: 0 0 5px rgba(0, 149, 121, 0.5);
+}
+
+.container input[type="submit"] {
+  height: 50px;
+  width: 100%;
+  background: #009579;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container input[type="submit"]:hover {
+  background: #006653;
+}
+
+.container select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f9f9f9;
+}
+
+.container select option {
+  font-size: 1rem;
+}
+
+.container a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #009579;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
